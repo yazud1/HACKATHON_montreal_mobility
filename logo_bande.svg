@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .black { fill: #111111; }
+      .blue { fill: #1f8fff; }
+      .text-main { font-family: Inter, Arial, sans-serif; font-weight: 600; fill: #111111; }
+      .text-sub { font-family: Inter, Arial, sans-serif; font-weight: 500; letter-spacing: 4px; fill: #555555; }
+    </style>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="220" height="220" rx="28" class="black"/>
+    <!-- Grid -->
+    <g stroke="#ffffff" stroke-width="10" fill="none" opacity="0.9">
+      <path d="M0 55 H220"/>
+      <path d="M0 110 H220"/>
+      <path d="M0 165 H220"/>
+      <path d="M55 0 V220"/>
+      <path d="M110 0 V220"/>
+      <path d="M165 0 V220"/>
+    </g>
+    <!-- Path -->
+    <path d="M20 160 C80 140, 90 80, 150 90 S200 40, 200 40" stroke="#ffffff" stroke-width="12" fill="none"/>
+    <!-- Node -->
+    <circle cx="200" cy="40" r="10" class="blue"/>
+  </g>
+
+  <!-- Text -->
+  <text x="320" y="140" font-size="72" class="text-main">Mobility Copilot</text>
+  <text x="320" y="195" font-size="28" class="text-sub">MONTRÉAL</text>
+</svg>

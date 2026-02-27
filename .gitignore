@@ -1,0 +1,10 @@
+data/*.csv
+data/*.txt
+__pycache__/
+*.pyc
+.env
+.venv/
+PRESENTATION_PPT_DEMO_COMPLETE.md
+DOCUMENTATION_EVOLUTION_COMPLETE.md
+NAGULESWARAN_HARGANE_EL MAHI.pptx
+questions.txt

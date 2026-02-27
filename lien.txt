@@ -1,0 +1,6 @@
+lien drive pour la video
+https://drive.google.com/drive/folders/1PS5OfxyyQt6t2bnx6tS6Tbw5GH-p2YNd?usp=sharing
+
+lien github pour le projet
+https://github.com/rup1t/HACKATHON_montreal_mobility.git
+git@github.com:rup1t/HACKATHON_montreal_mobility.git
