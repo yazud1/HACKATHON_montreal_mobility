@@ -125,7 +125,7 @@ Principe cle:
 
 ## Description module par module
 
-### `/Users/rupithan/Desktop/HACKATHON/app.py`
+### `/app.py`
 Role:
 - point d'entree Streamlit;
 - orchestration des 3 vues;
@@ -138,7 +138,7 @@ Responsabilites cle:
 - gere l'ambiguite interactive;
 - applique les reglages de periode globaux.
 
-### `/Users/rupithan/Desktop/HACKATHON/query_engine.py`
+### `query_engine.py`
 Role:
 - coeur du systeme de Q/R analytique.
 
@@ -157,7 +157,7 @@ Responsabilites cle:
 Correctif critique recent:
 - suppression d'un double filtrage sur `trend_incidents` qui pouvait produire des pourcentages aberrants.
 
-### `/Users/rupithan/Desktop/HACKATHON/rag_engine.py`
+### `rag_engine.py`
 Role:
 - corpus local RAG pour standardiser les termes et limiter les hallucinations.
 
@@ -167,7 +167,7 @@ Responsabilites cle:
 - retrieval contexte;
 - detection d'ambiguite semantique.
 
-### `/Users/rupithan/Desktop/HACKATHON/briefing.py`
+### `/briefing.py`
 Role:
 - generation des briefings automatiques.
 
@@ -178,7 +178,7 @@ Responsabilites cle:
 - mise en forme sections decisionnelles;
 - export snapshot HTML.
 
-### `/Users/rupithan/Desktop/HACKATHON/data_loader.py`
+### `/data_loader.py`
 Role:
 - ingestion resiliente des donnees.
 
@@ -192,7 +192,7 @@ Responsabilites cle:
 - mapping utile au moteur analytique;
 - production d'un `status` par source (affiche dans la sidebar).
 
-### `/Users/rupithan/Desktop/HACKATHON/llm_client.py`
+### `/llm_client.py`
 Role:
 - couche unique d'appel LLM.
 
@@ -208,8 +208,8 @@ Responsabilites cle:
 - `status_line()` affichee dans l'UI.
 
 ### Utilitaires
-- `/Users/rupithan/Desktop/HACKATHON/download_data.py`: telechargement datasets.
-- `/Users/rupithan/Desktop/HACKATHON/diagnostic.py`: diagnostic rapide fichiers/colonnes.
+- `/download_data.py`: telechargement datasets.
+- `/diagnostic.py`: diagnostic rapide fichiers/colonnes.
 
 ---
 
@@ -222,7 +222,7 @@ Responsabilites cle:
 - Meteo Canada (GeoMet climate-daily).
 
 ### Dossier attendu
-`/Users/rupithan/Desktop/HACKATHON/data/`
+`/data/`
 - `311.csv`
 - `collisions.csv`
 - `meteo.csv`
@@ -531,9 +531,9 @@ L'etat runtime s'affiche dans la sidebar:
 ## Documents complementaires
 
 - Evolution complete des changements:
-  - `/Users/rupithan/Desktop/HACKATHON/DOCUMENTATION_EVOLUTION_COMPLETE.md`
+  - `/DOCUMENTATION_EVOLUTION_COMPLETE.md`
 - Support presentation et script demo:
-  - `/Users/rupithan/Desktop/HACKATHON/PRESENTATION_PPT_DEMO_COMPLETE.md`
+  - `/PRESENTATION_PPT_DEMO_COMPLETE.md`
 
 ---
 
